@@ -1,4 +1,3 @@
-
 // Fetcher dataen fra URL'en
 fetch("https://qmsbtkywuyypiccoicuh.supabase.co/rest/v1/vildmadData?category", {
   method: "GET",
