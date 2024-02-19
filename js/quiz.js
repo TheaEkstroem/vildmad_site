@@ -16,7 +16,7 @@ document.getElementById('quizForm').addEventListener('submit', function(event) {
     if (document.querySelector('input[name="q4"]:checked').value === 'c') {
         score++;
       }
-      if (document.querySelector('input[name="q5"]:checked').value === 'c') {
+      if (document.querySelector('input[name="q5"]:checked').value === 'b') {
         score++;
       }
     
