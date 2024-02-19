@@ -15,6 +15,10 @@ apikey:
 function showData(dataset) {
   // Looper og kalder funktionen showProduct
   dataset.forEach(showProduct);
+
+  // ændre overskrift
+  document.querySelector("#category_titel").textContent = category;
+
 }
 
 // tager fat i seasons (tal array) udskrifter den med måned navn og retunere det som text streng med "," imellem
@@ -41,6 +45,7 @@ dataClone.querySelector(".sankelandskab").textContent = data.sankelandskab_title
 dataClone.querySelector(".seasons").textContent = showSeasons(data.seasons);
 dataClone.querySelector(".info").textContent = data.category_info
 dataClone.querySelector("img").src = data.img;
+
 
 // Appende
 productList = document.querySelector(".productList");
