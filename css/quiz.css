@@ -118,12 +118,11 @@ hr{
 
 /* min burger menu */
 body {
-/*     font-family: Arial, sans-serif;
- */    color: #1b1b1b;
+/*   font-family: ;
+ */   color: #252525;
     background-color: #FAF9F6;
   
   }
-
 
 
   /* Lille skærm */
@@ -135,6 +134,7 @@ body {
    
    h1{
     padding: 1em;
+
    }
     h2 {
       padding-top: 0.5em;
@@ -155,6 +155,16 @@ body {
       margin: 2em;
       box-shadow: 1px 1px 6px rgba(58, 2, 2, 0.783);
     }
+    input[type="text"],
+    select {
+      width: 50%;
+      padding: 0.5em;
+      margin-bottom: 5px;
+      background-color: white;
+      border: none;
+      color: rgba(158, 158, 158, 0.882);
+    }
+    
      
   
   }
@@ -173,6 +183,7 @@ body {
   
     h1 {
       text-align: center;
+
     }
     
     form {
@@ -193,14 +204,19 @@ body {
       width: 40%;
       padding: 0.5em;
       margin-bottom: 5px;
-    
+      background-color: white;
+      border: none;
+      color: rgba(158, 158, 158, 0.882);
+
     }
     
     #quizForm{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 700px;}
+    width: 700px;
+  }
+
     
     
     .flex {
@@ -217,7 +233,6 @@ body {
       border: none;
       border-radius: 5px;
       box-shadow: 1px 1px 6px rgba(58, 2, 2, 0.783);
-
       cursor: pointer;
       margin: 2em;
     }
