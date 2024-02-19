@@ -3,40 +3,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="css/quiz.css">
+
     <title>Student</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.webp" alt="Logo"
+          /></a>
+        </div>
+        <ul class="menu">
+          <li><a href="category.html">Category</a></li>
+          <li><a href="map.html">Map</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="howto.html">How To</a></li>
+          <li><a href="about.html">About</a></li>
 
-    <main>
-      <h1>Student mission</h1>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+      <hr>
+  </header>
 
-     
-      <form name="kontakt" netlify >
+    <main >
+      <h1>Quiz about plants</h1>
+    
+      <form id="quizForm" netlify >
+        <div class="flex">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Full name" /><br />
+          <label>Grade:</label>
+          <select name="liste">
+            <option value="">6th. grade</option>
+            <option value="">7th. grade</option>
+            <option value="">8th.grade</option>
+          </select>
+        </div>
+      </br>
 
-        <label for="fname">Name</label><br />
-        <input type="text" id="fname" name="fname" placeholder="Name...."/><br />
+      <section class="quiz">  
 
-         <label>Grade</label><br>
-        <select name="liste">
-          <option value="">6th. grade</option>
-          <option value="">7th. grade</option>
-          <option value="">8th.grade</option>
-        </select></br>
+      <h2>Question 1: Which of these is a mushroom?</h2>
+      <input type="radio" name="q1" value="a" /><!-- rigtige -->
+      <label for="a">a) Chanterelle</label>
+      <br />
+      <input type="radio" name="q1" value="b" />
+      <label for="b">b) Bladderwrack </label>
+      <br />
+      <input type="radio" name="q1" value="c" />
+      <label for="c">c) Pear</label>
 
-        <label for="Rname">Recipe Name</label><br />
-        <input type="text" id="Rname" name="Rname" placeholder="...." /> </br>
- 
-        <label for="description">Raw materials</label><br />
-        <input type="text" id="description" name="description" placeholder="What plants did you use?.." /></br>
+      <h2>Question 2: What is not seaweed?</h2>
+      <input type="radio" name="q2" value="a" />
+      <label for="a">a) Sea lettuce </label>
+      <br />
+      <input type="radio" name="q2" value="b" /><!-- rigtige -->
+      <label for="b">b) Elderflower </label>
+      <br />
+      <input type="radio" name="q2" value="c" />
+      <label for="c">c) Sea finger </label>
 
-        <label for="description">Description of course</label><br />
-        <input type="text" id="description" name="description" placeholder="...." /></br>
+      <h2>Question 3: Which of these plants is a herb?</h2>
+      <input type="radio" name="q3" value="a" /><!-- rigtige -->
+      <label for="a">a) Deadnettle </label>
+      <br />
+      <input type="radio" name="q3" value="b" />
+      <label for="b">b) Violet webcap </label>
+      <br />
+      <input type="radio" name="q3" value="c" />
+      <label for="c">c) Downy birch </label>
 
-        <input type="submit" value="Submit" />
-      </form>
-    </main>
+      <h2>Question 4: Where can you find seaweed?</h2>
+      <input type="radio" name="q4" value="a" />
+      <label for="a">a) Town </label>
+      <br />
+      <input type="radio" name="q4" value="b" />
+      <label for="b">b) Deciduous forest </label>
+      <br />
+      <input type="radio" name="q4" value="c" /><!-- rigtige -->
+      <label for="c">c) Beach </label>
 
+      <h2>Question 5: Where can you not not find mushrooms?</h2>
+      <input type="radio" name="q5" value="a" />
+      <label for="a">a) Deciduous forest </label>
+      <br />
+      <input type="radio" name="q5" value="b" /><!-- rigtige -->
+      <label for="b">b) Beach</label>
+      <br />
+      <input type="radio" name="q5" value="c" />
+      <label for="c">c) Town </label>
+      <br />
+      <input type="submit" value="Submit Quiz" />
+    </form>  
+  </main>
     <footer></footer>
+
+    <script src="js/burgermenu.js"></script>
+    <script src="js/quiz.js"></script>
   </body>
 </html>
