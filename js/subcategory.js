@@ -22,10 +22,12 @@ function showProduct(data) {
 dataClone.querySelector(".title").textContent = data.title;
 dataClone.querySelector(".sankelandskab").textContent = data.sankelandskab_title;
 dataClone.querySelector(".seasons").textContent = data.seasons;
-/* dataClone.querySelector(
-    ".img"
-  ).src = `https://qmsbtkywuyypiccoicuh.supabase.co/rest/v1/vildmadData?apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFtc2J0a3l3dXl5cGljY29pY3VoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDc4MTIwNjIsImV4cCI6MjAyMzM4ODA2Mn0.ruBzrTmBPlUx5T2mRJdyOT7s0dFnzWJ2DGvaUyf8dQg/${data.img}.webp`;
- */
+dataClone.querySelector(".info").textContent = data.category_info
+
+/* dataClone.querySelector(".img").src = 
+
+
+data.img; */
 
 
 
