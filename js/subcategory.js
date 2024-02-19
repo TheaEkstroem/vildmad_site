@@ -2,6 +2,10 @@ const urlParams = new URLSearchParams(window.location.search);
 const category = urlParams.get("category");
 const productsURL = `https://qmsbtkywuyypiccoicuh.supabase.co/rest/v1/vildmadData?category=eq.${category}`;
 
+
+  // ændre overskrift
+  document.querySelector("#category_titel").textContent = category;
+
 fetch(productsURL, {
   method: "GET",
 headers: {
@@ -12,12 +16,11 @@ apikey:
 .then((res) => res.json())
 .then(showData);
 
+
 function showData(dataset) {
   // Looper og kalder funktionen showProduct
   dataset.forEach(showProduct);
 
-  // ændre overskrift
-  document.querySelector("#category_titel").textContent = category;
 
 }
 
