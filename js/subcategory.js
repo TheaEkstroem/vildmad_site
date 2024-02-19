@@ -30,7 +30,6 @@ dataClone.querySelector(".title").textContent = data.title;
 dataClone.querySelector(".sankelandskab").textContent = data.sankelandskab_title;
 dataClone.querySelector(".seasons").textContent = data.seasons;
 dataClone.querySelector(".info").textContent = data.category_info
-
 /* dataClone.querySelector(".img").src = data.img; */
 
 // Appende
