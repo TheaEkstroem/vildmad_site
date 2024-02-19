@@ -22,7 +22,7 @@ hr{
 
 
 .logo img {
-  height: 120px;
+  height: 180px;
   padding-left: 10%;
   padding-top: 5%;
 }
@@ -42,6 +42,7 @@ hr{
   margin-top: 1%;
   line-height: 20px;
   color: #333;
+  font-size: 1.3em;
 }
 
 .menu li a:hover {
@@ -61,7 +62,7 @@ hr{
 }
 
 /* Responsiv menu */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 880px) {
   .burger.active .line:nth-child(1) {
     transform: translate(-9px) rotate(45deg) translate(15px);
     transition: 0.2s linear;
@@ -215,9 +216,10 @@ body {
       color: #fff;
       border: none;
       border-radius: 5px;
+      box-shadow: 1px 1px 6px rgba(58, 2, 2, 0.783);
+
       cursor: pointer;
       margin: 2em;
-      box-shadow: 1px 1px 6px rgba(58, 2, 2, 0.783);
     }
     
     h2 {
