@@ -115,15 +115,12 @@ hr{
   
 }
 
-
 /* min burger menu */
 body {
-/*   font-family: ;
- */   color: #252525;
-    background-color: #FAF9F6;
+   color: #252525;
+   background-color: #FAF9F6;
   
   }
-
 
   /* Lille skærm */
   @media screen and (max-width: 600px) {
