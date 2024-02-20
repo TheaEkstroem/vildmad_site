@@ -125,3 +125,6 @@ main {
   /* padding: 40px; */
   justify-content: center;
 }
+.left {
+  text-align: left;
+}
