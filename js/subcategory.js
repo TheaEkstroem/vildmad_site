@@ -5,17 +5,16 @@ const productsURL = `https://qmsbtkywuyypiccoicuh.supabase.co/rest/v1/vildmadDat
 // ændre overskrift på html siden.
 document.querySelector("#category_titel").textContent = category;
 
-// fetcher vores data fra API 
+// fetcher vores data fra API
 fetch(productsURL, {
- method: "GET",
- headers: {
- apikey:
- "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFtc2J0a3l3dXl5cGljY29pY3VoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDc4MTIwNjIsImV4cCI6MjAyMzM4ODA2Mn0.ruBzrTmBPlUx5T2mRJdyOT7s0dFnzWJ2DGvaUyf8dQg",
-},
+  method: "GET",
+  headers: {
+    apikey:
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFtc2J0a3l3dXl5cGljY29pY3VoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDc4MTIwNjIsImV4cCI6MjAyMzM4ODA2Mn0.ruBzrTmBPlUx5T2mRJdyOT7s0dFnzWJ2DGvaUyf8dQg",
+  },
 })
-.then((res) => res.json())
-.then(showData);
-
+  .then((res) => res.json())
+  .then(showData);
 
 function showData(dataset) {
   // Looper og kalder funktionen showProduct
@@ -24,12 +23,22 @@ function showData(dataset) {
 
 // tager fat i seasons (tal array) udskrifter den med måned navn og retunere det som text streng med "," imellem
 function showSeasons(seasons) {
-    const monthNames = [
-        "January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"
-    ];
-    const monthList = seasons.map((monthNumber) => monthNames[monthNumber]);
-    return monthList.join(", ");
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  const monthList = seasons.map((monthNumber) => monthNames[monthNumber]);
+  return monthList.join(", ");
 }
 
 function showProduct(data) {
@@ -42,9 +51,10 @@ function showProduct(data) {
 
   // Data
   dataClone.querySelector(".title").textContent = data.title;
-  dataClone.querySelector(".sankelandskab").textContent = data.sankelandskab_title;
+  dataClone.querySelector(".sankelandskab").textContent =
+    data.sankelandskab_title;
   dataClone.querySelector(".seasons").textContent = showSeasons(data.seasons);
-  dataClone.querySelector(".info").textContent = data.category_info
+  dataClone.querySelector(".info").textContent = data.category_info;
   dataClone.querySelector("img").src = data.img;
 
   // Appende
