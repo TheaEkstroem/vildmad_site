@@ -1,64 +1,93 @@
 * {
-    box-sizing: border-box;
-    margin: 15px;
-    padding: 0;
-    text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  margin: 15px;
+  padding: 0;
+  text-rendering: optimizeLegibility;
 }
 
 #brod {
   width: 350px;
   position: absolute;
   margin-top: 3.5px;
+  font-size: 1em;
 }
+
 .brodkrumme {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 10px 2px;
   justify-content: end;
   font-size: 0.7em;
+  margin-bottom: 5%;
 }
-.brodkrumme a{
+.brodkrumme a {
   margin-right: 1px;
   margin-left: 1px;
 }
 
 .subcategory main {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    /* grid-template-columns: repeat(auto-fill, minmax (150px, 290px)); */
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(auto-fill, minmax (150px, 290px)); */
+  gap: 5rem;
 }
 
-.subcategory main h2 {
-    grid-column: 1/-1;
+.categoryProduct {
+  margin: 10%;
 }
 
-.subcategory article h3 {
-  font-size: 1rem;
+.subcategory main h1 {
+  grid-column: 1/-1;
+}
+
+.subcategory article h2 {
+  font-size: 2rem;
   flex-grow: 3;
 }
 
+.seasons {
+  color: grey;
+}
+
+.info {
+  font-size: 1.1rem;
+}
 
 .subcategory article {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 90%;
+  height: auto;
+  align-items: center;
+  border-radius: 100%;
+  margin-bottom: 3em;
 }
-
 
 /* Mobil */
 
 @media screen and (max-width: 800px) {
-
- .subcategory main {
+  .subcategory {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 1em;
-}  
+    gap: 2em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 1em;
+  }
+
+  .titel_text {
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+  }
 }

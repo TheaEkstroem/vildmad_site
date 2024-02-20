@@ -17,6 +17,27 @@
   font-style: normal;
 }
 
+h1 {
+  font-size: 3.3rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+h4 {
+  font-size: 1.7rem;
+}
+
+p {
+  line-height: 1.4;
+  font-size: 1.3rem;
+}
+
 /* .navbar {
   display: flex;
   align-items: center;
@@ -54,6 +75,7 @@
 body {
   background-color: #faf9f6;
   font-family: nunito;
+  color: #614729;
 }
 
 /* min burger menu */

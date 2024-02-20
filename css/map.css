@@ -5,27 +5,31 @@ p {
   line-height: 1.5; 
 } */
 /* Mobile */
+/* body {
+  margin-left: 70px;
+} */
 @media (max-width: 600px) {
   #map iframe {
     width: 100%;
 
     aspect-ratio: 16/9;
-    height: 200px;
+    height: 250px;
     border: 0;
   }
   .gray-box,
   .checkboxes {
-    width: 90%;
+    width: 100%;
     margin: 20px auto;
-    padding: 15px;
+    padding: 50px;
   }
   .checkboxes {
     grid-template-columns: 1fr;
   }
-  /* .checkboxes label {
+  .checkboxes label {
     display: flex;
     align-items: center;
-  } */
+    line-height: 2;
+  }
 }
 
 /* medium */
@@ -38,9 +42,10 @@ p {
 /* large */
 @media (min-width: 800px) {
   #map iframe {
-    height: auto;
+    height: 500px;
     width: 100%;
-    aspect-ratio: 16/9;
+    /* aspect-ratio: 16/9; */
+    /* padding-bottom: 30px; */
   }
 }
 
@@ -55,9 +60,6 @@ h2 {
 p {
   margin: 20px;
   text-align: left;
-} */
-/* body {
-  background-color: #87af8b;
 } */
 
 /* .header {
@@ -99,12 +101,14 @@ p {
 main {
   padding: 20px;
   text-align: center;
+  background-color: #b9d4bc;
+  /* padding-left: 50px; */
 }
 .gray-box {
   background-color: #f0eded;
   padding: 20px;
   margin: 20px auto;
-  width: 100%;
+  width: 90%;
   justify-content: center;
 }
 
@@ -113,18 +117,25 @@ main {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   justify-content: center;
+  padding: 30px;
+  align-items: center;
 }
 /* the boxes where aligned by text and not boxes without this */
 .checkboxes label {
   display: flex;
   align-items: center;
+  line-height: 1.5;
+  text-align: left;
+  padding: 10px;
+  /* justify-content: center; */
 }
 
 #map {
   width: 100%;
-  /* padding: 40px; */
+  padding: 30px;
   justify-content: center;
 }
 .left {
   text-align: left;
+  /* padding: 40px; */
 }
