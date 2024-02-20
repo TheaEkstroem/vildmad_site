@@ -15,7 +15,6 @@ body {
   line-height: 1.563;
 }
 
-
 h1,
 h2,
 h3 {
@@ -40,6 +39,12 @@ button {
   border: 2px solid #c58642;
   box-shadow: 2px 4px #c58642;
   font-family: nunito;
+  margin-left: 9%;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
 
 /* Categories med GRIDS */
@@ -48,6 +53,7 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1em;
+  margin-bottom: 5%;
 }
 
 .categorylist a {
@@ -66,7 +72,8 @@ button {
 }
 
 @media screen and (min-width: 800px) {
-main{
-  margin-left: 10em;
-  margin-right: 8em;
-}}
+  main {
+    margin-left: 10em;
+    margin-right: 8em;
+  }
+}
