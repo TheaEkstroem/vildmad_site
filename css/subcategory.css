@@ -28,7 +28,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* grid-template-columns: repeat(auto-fill, minmax (150px, 290px)); */
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .subcategory main h2 {
@@ -48,16 +48,35 @@
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
+  align-items: center;
+  border-radius: 100%;
+  margin-bottom: 3em;
 }
 
 /* Mobil */
 
 @media screen and (max-width: 800px) {
-  .subcategory main {
+  .subcategory  {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 1em;
+    gap: 2em;
   }
+}
+
+@media screen and (min-width: 800px) {
+  main{
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 1em;
+  }
+
+  .titel_text{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+    
+  }
+ 
 }
