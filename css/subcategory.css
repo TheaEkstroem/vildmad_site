@@ -16,7 +16,6 @@ main {
   font-size: 1em;
 }
 
-
 .brodkrumme {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -29,7 +28,6 @@ main {
   margin-right: 1px;
   margin-left: 1px;
   color: #61503d;
-
 }
 
 .subcategory .productList {
@@ -65,7 +63,6 @@ main {
   margin-bottom: 1rem;
 }
 
-
 .img {
   display: block;
   max-width: 90%;
@@ -77,16 +74,17 @@ main {
 
 /* Mobil */
 @media screen and (max-width: 800px) {
-  .subcategory {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2em;
+  .logo {
+    z-index: 1;
   }
-
 }
 
 @media screen and (min-width: 800px) {
-  h1{
+  h1 {
     padding: 1.5em;
+  }
+  .subcategory {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
