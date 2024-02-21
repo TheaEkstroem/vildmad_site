@@ -1,28 +1,28 @@
 document.getElementById('quizForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    
-    var score = 0;
-    
-    // Check answers
-    if (document.querySelector('input[name="q1"]:checked').value === 'a') {
+  event.preventDefault();
+  
+  var score = 0;
+  
+  // Check answers
+  if (document.querySelector('input[name="q1"]:checked').id === 'a') {
+    score++;
+  }
+  if (document.querySelector('input[name="q2"]:checked').id === 'b2') {
+    score++;
+  }
+  if (document.querySelector('input[name="q3"]:checked').id === 'a3') {
+    score++;
+  }
+  if (document.querySelector('input[name="q4"]:checked').id === 'c4') {
       score++;
     }
-    if (document.querySelector('input[name="q2"]:checked').value === 'b') {
+    if (document.querySelector('input[name="q5"]:checked').id === 'b5') {
       score++;
     }
-    if (document.querySelector('input[name="q3"]:checked').value === 'a') {
-      score++;
-    }
-    if (document.querySelector('input[name="q4"]:checked').value === 'c') {
-        score++;
-      }
-      if (document.querySelector('input[name="q5"]:checked').value === 'b') {
-        score++;
-      }
-    
-    // Display score
-    alert('You scored ' + score + ' out of 5!');
-    
-    // Reset form
-    document.getElementById('quizForm').reset();
-  });
+  
+  // Display score
+  alert('You scored ' + score + ' out of 5!');
+  
+  // Reset form
+  document.getElementById('quizForm').reset();
+});
