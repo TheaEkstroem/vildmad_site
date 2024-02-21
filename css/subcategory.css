@@ -5,8 +5,7 @@
   text-rendering: optimizeLegibility;
 }
 
-main,
-.titel_text {
+main {
   background-color: #b9d4bc;
 }
 
@@ -21,7 +20,7 @@ main,
 .brodkrumme {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 10px 2px;
+  margin: 20px 20px;
   justify-content: end;
   font-size: 0.7em;
   margin-bottom: 5%;
@@ -33,7 +32,7 @@ main,
 
 }
 
-.subcategory main {
+.subcategory .productList {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
@@ -53,7 +52,7 @@ main,
 }
 
 .seasons {
-  color: grey;
+  color: rgb(61, 61, 61);
 }
 
 .info {
@@ -66,6 +65,7 @@ main,
   margin-bottom: 1rem;
 }
 
+
 .img {
   display: block;
   max-width: 90%;
@@ -76,7 +76,6 @@ main,
 }
 
 /* Mobil */
-
 @media screen and (max-width: 800px) {
   .subcategory {
     display: grid;
@@ -87,18 +86,7 @@ main,
 }
 
 @media screen and (min-width: 800px) {
-  main {
-    margin-left: 8em;
-    margin-right: 8em;
-    margin-top: 1em;
-  }
-
-  .titel_text {
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-top: 2em;
-  }
-    #category_titel {
-    margin-top: 1.3em;
+  h1{
+    padding: 1.5em;
   }
 }
