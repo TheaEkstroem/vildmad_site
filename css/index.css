@@ -9,7 +9,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 5%;
 }
 
@@ -68,6 +68,11 @@ a {
   height: auto; /* Automatisk höjd för att behålla proportioner */
   max-width: 100%;
   max-height: 200px;
+}
+
+.carousel_text {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .custom-btn {
