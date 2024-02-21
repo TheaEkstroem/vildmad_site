@@ -1,5 +1,4 @@
-document.getElementById('quizForm').addEventListener('submit', function(event) {
-  event.preventDefault();
+document.getElementById('quizForm').addEventListener('submit', function()  {
   
   var score = 0;
   
