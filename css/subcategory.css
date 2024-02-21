@@ -5,11 +5,16 @@
   text-rendering: optimizeLegibility;
 }
 
+
 #brod {
   width: 350px;
   position: absolute;
   margin-top: 3.5px;
   font-size: 1em;
+}
+
+#category_titel {
+  margin-top: 1.3em;
 }
 
 .brodkrumme {

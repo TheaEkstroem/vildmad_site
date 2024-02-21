@@ -4,11 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-*/ img {
+* img {
   max-width: 100%;
   height: auto;
   display: block;
 }
+ 
 
 @font-face {
   font-family: "nunito";
@@ -102,7 +103,7 @@ hr {
 }
 
 .logo img {
-  height: 120px;
+  height: 140px;
   padding-left: 10%;
   padding-top: 5%;
 }
@@ -196,7 +197,7 @@ hr {
   }
 
   .logo img {
-    height: 60px;
+    height: 80px;
     padding: 20%;
   }
 }
