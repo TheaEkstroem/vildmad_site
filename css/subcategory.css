@@ -17,9 +17,6 @@ main,
   font-size: 1em;
 }
 
-#category_titel {
-  margin-top: 1.3em;
-}
 
 .brodkrumme {
   display: grid;
@@ -33,6 +30,7 @@ main,
   margin-right: 1px;
   margin-left: 1px;
   color: #61503d;
+
 }
 
 .subcategory main {
@@ -85,6 +83,7 @@ main,
     grid-template-columns: repeat(1, 1fr);
     gap: 2em;
   }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -98,5 +97,8 @@ main,
     margin-left: 5em;
     margin-right: 5em;
     margin-top: 2em;
+  }
+    #category_titel {
+    margin-top: 1.3em;
   }
 }
