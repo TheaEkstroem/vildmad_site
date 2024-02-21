@@ -3,7 +3,6 @@ a {
 }
 
 /* Desktop */
-
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -40,10 +39,7 @@ a {
   transform: scale(1.1);
 }
 
-
-
 /* Kode fra Danielas virksomhedsprojekt 1 semester (Jørnæs Production site */
-
 .carousel-container {
   position: relative;
   width: 40%;
@@ -104,11 +100,7 @@ a {
   font-size: 13px;
 }
 
-
-
-
 /* Tablet */
-
 @media screen and (max-width: 1080px) {
   .box {
     /* Flex-grow, flex-shrink, flex-basics properties */
@@ -133,7 +125,7 @@ a {
     width: 200px;
   }
 
-      /* --------carousel Tablet----------- */
+  /* --------carousel Tablet----------- */
 
   .carousel-container {
     position: relative;
