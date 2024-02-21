@@ -6,7 +6,7 @@
 
 h1,
 h2,
-h3, 
+h3,
 p {
   margin-bottom: 1rem;
   margin-top: 1em;
@@ -18,19 +18,17 @@ p {
   margin-bottom: 4rem;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.category_img {
+  margin-bottom: 1%;
 }
 
-button {
+.btn {
   background-color: #f3a34f;
   border-radius: 12px;
   color: white;
   font-size: 1rem;
   font-weight: bold;
-  padding: 20px 30px;
+  padding: 5px 20px;
   border: 2px solid #c58642;
   box-shadow: 2px 4px #c58642;
   font-family: nunito;
@@ -43,7 +41,6 @@ button:hover {
 }
 
 /* Categories med GRIDS */
-
 
 .categorylist {
   display: grid;
@@ -80,5 +77,3 @@ button:hover {
     max-width: 100%;
   }
 }
-
-
