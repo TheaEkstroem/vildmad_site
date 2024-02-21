@@ -36,7 +36,7 @@ p {
   cursor: pointer;
 }
 
-.btn:hover  {
+.btn:hover {
   transform: scale(2.1);
 }
 
@@ -54,6 +54,7 @@ p {
   max-width: 75%;
   align-items: center;
   margin: 0 auto;
+  margin-bottom: 5%;
 }
 
 .categorylist a {
@@ -70,6 +71,7 @@ p {
     max-width: 75%;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 5%;
   }
 }
 
