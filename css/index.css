@@ -40,6 +40,68 @@ a {
   transform: scale(1.1);
 }
 
+
+
+/* Kode fra Danielas virksomhedsprojekt 1 semester (Jørnæs Production site */
+
+.carousel-container {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  width: 50%; /* Dela på 50% för att visa två bilder på en rad */
+  flex: 0 0 auto; /* Använda auto flex-basis för dynamisk bredd */
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-slide img {
+  width: 100%; /* Sätt bildbredden till 100% av dess förälderelement */
+  height: auto; /* Automatisk höjd för att behålla proportioner */
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.custom-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+  background-color: white;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+.next-btn {
+  right: 10px;
+  background-color: white;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+.arrow {
+  font-size: 13px;
+}
+
+
+
+
 /* Tablet */
 
 @media screen and (max-width: 1080px) {
@@ -65,7 +127,61 @@ a {
   .box img {
     width: 200px;
   }
+
+      /* --------carousel Tablet----------- */
+
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-slide {
+  width: 50%; /* Dela på 50% för att visa två bilder på en rad */
+  flex: 0 0 auto; /* Använda auto flex-basis för dynamisk bredd */
+  margin: 0;
+  padding: 0;
 }
+
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .custom-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .prev-btn {
+    left: 10px;
+    background-color: white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+  }
+
+  .next-btn {
+    right: 10px;
+    background-color: white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+  }
+  .arrow {
+    font-size: 13px;
+  }
+}
+
 
 /* Mobil */
 
@@ -92,4 +208,60 @@ a {
   .box img {
     width: auto;
   }
+
+
+    /* --------carousel mobil----------- */
+
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-slide {
+  width: 50%; /* Dela på 50% för att visa två bilder på en rad */
+  flex: 0 0 auto; /* Använda auto flex-basis för dynamisk bredd */
+  margin: 0;
+  padding: 0;
 }
+
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .custom-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .prev-btn {
+    left: 10px;
+    background-color: white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+  }
+
+  .next-btn {
+    right: 10px;
+    background-color: white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+  }
+  .arrow {
+    font-size: 13px;
+  }
+}
+
+
