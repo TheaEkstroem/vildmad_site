@@ -43,7 +43,7 @@ body {
     margin-bottom: 5px;
     background-color: white;
     border: none;
-    color: rgba(158, 158, 158, 0.882);
+    color: rgba(61, 59, 59, 0.882);
   }
 
   input[type="submit"]:hover {
@@ -86,7 +86,17 @@ body {
     margin-bottom: 5px;
     background-color: white;
     border: none;
-    color: rgba(158, 158, 158, 0.882);
+    color: rgba(61, 59, 59, 0.882);
+  }
+
+  input[type="text"],
+  select {
+    width: 40%;
+    padding: 0.5em;
+    margin-bottom: 5px;
+    background-color: white;
+    border: none;
+    color: rgba(61, 59, 59, 0.882);
   }
 
   .quiz {
