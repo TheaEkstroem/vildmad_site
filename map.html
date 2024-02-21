@@ -1,161 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/map.css" />
 
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/map.css" />
 
-    <title>Map</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <div class="logo">
-          <a href="index.html"> <img src="img/logo.webp" alt="Logo" /></a>
-        </div>
-        <ul class="menu">
-          <li><a href="category.html">Category</a></li>
-          <li><a href="map.html">Map</a></li>
-          <li><a href="quiz.html">Quiz</a></li>
-          <li><a href="howto.html">How To</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-        <div class="burger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-      </nav>
-      <hr />
-    </header>
-    <main>
-      <!-- <div class="gray-box"> -->
-      <h1>Map of raw materials</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quos in
-        facere perspiciatis expedita nam, iure nisi quisquam corporis cum, porro
-        vitae tenetur aut reprehenderit neque, pariatur autem. Asperiores,
-        reiciendis.
-      </p>
-      <div class="gray-box">
-        <h2 class="left">Raw materials</h2>
-        <div class="checkboxes">
-          <label
-            ><input
-              type="checkbox"
-              name="materials"
-              value="flowers"
-            />Flowers</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              name="materials"
-              value="seaweed"
-            />Seaweed</label
-          >
-          <label
-            ><input type="checkbox" name="materials" value="Beach herbs" />Beach
-            herbs</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              name="materials"
-              value="Mushrooms"
-            />Mushrooms</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              name="materials"
-              value="Herbs"
-            />Herbs</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              name="materials"
-              value="Bushes & Trees"
-            />Bushes & Trees</label
-          >
-        </div>
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Map</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html"> <img src="img/logo.webp" alt="Logo" /></a>
       </div>
-      <div id="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5927.937422344161!2d12.505566346694728!3d55.80531719482714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e931ff0c57f%3A0x5f30ca298c4fed24!2sRavnholm%20Skov!5e0!3m2!1sda!2sdk!4v1708281352641!5m2!1sda!2sdk"
-          width="1000"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+      <ul class="menu">
+        <li><a href="category.html">Category</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="howto.html">How To</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
-      <footer>
-        <div class="footer-con">
-          <div class="logo-circle-footer"></div>
-        </div>
-      </footer>
-    </main>
+    </nav>
+    <hr />
+  </header>
+  <main>
+    <!-- <div class="gray-box"> -->
+    <h1>Map of raw materials</h1>
+    <p>
+      Here is our map to make it easier to find the raw materials that you need.
+    </p>
+    <div class="gray-box">
+      <h2 class="left">Raw materials</h2>
+      <div class="checkboxes">
+        <label><input type="checkbox" name="materials" value="flowers" />Flowers</label>
+        <label><input type="checkbox" name="materials" value="seaweed" />Seaweed</label>
+        <label><input type="checkbox" name="materials" value="Beach herbs" />Beach
+          herbs</label>
+        <label><input type="checkbox" name="materials" value="Mushrooms" />Mushrooms</label>
+        <label><input type="checkbox" name="materials" value="Herbs" />Herbs</label>
+        <label><input type="checkbox" name="materials" value="Bushes & Trees" />Bushes & Trees</label>
+      </div>
+    </div>
+    <div id="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5927.937422344161!2d12.505566346694728!3d55.80531719482714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e931ff0c57f%3A0x5f30ca298c4fed24!2sRavnholm%20Skov!5e0!3m2!1sda!2sdk!4v1708281352641!5m2!1sda!2sdk"
+        width="1000" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <footer>
-      <section class="footer_grid_1_1_1_1_1_1_1">
-        <div class="logo">
-          <a href="index.html"><img src="img/logo.webp" alt="Logo" /></a>
-        </div>
-        <div>
-          <ul>
-            <li><a href="category.html">Category</a></li>
-            <li>Seasons</li>
-            <li>Enviroments</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li><a href="map.html">Map</a></li>
-            <li><a href="subcategory.html">Raw Materials</a></li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li><a href="quiz.html">Quiz</a></li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li><a href="howto.html">Guide</a></li>
-            <li>Nature Behaviour</li>
-            <li>Must have</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li><a href="about.html">About</a></li>
-            <li>Contact</li>
-            <li>Social Media</li>
-          </ul>
-        </div>
-        <div>
-          <ul class="logoer">
-            <li>
-              <a href="#" target="_blank">
-                <img src="img/instalogo.svg" alt="" id="instagram" /> Instagram
-              </a>
-            </li>
-
-            <li>
-              <a href="#" target="_blank">
-                <img src="img/tiktok-logo.svg" alt="" id="tiktok" /> TikTok
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <div class="footer-con">
+        <div class="logo-circle-footer"></div>
+      </div>
     </footer>
-    <script src="js/burgermenu.js"></script>
-    <script src="js/map.js"></script>
-  </body>
+  </main>
+  <footer>
+    <section class="footer_grid_1_1_1_1_1_1_1">
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.webp" alt="Logo" /></a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="category.html">Category</a></li>
+          <li>Seasons</li>
+          <li>Enviroments</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="map.html">Map</a></li>
+          <li><a href="subcategory.html">Raw Materials</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="howto.html">Guide</a></li>
+          <li>Nature Behaviour</li>
+          <li>Must have</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li>Contact</li>
+          <li>Social Media</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="logoer">
+          <li>
+            <a href="#" target="_blank">
+              <img src="img/instalogo.svg" alt="" id="instagram" /> Instagram
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img src="img/tiktok-logo.svg" alt="" id="tiktok" /> TikTok
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+  <script src="js/burgermenu.js"></script>
+  <script src="js/map.js"></script>
+</body>
+
 </html>
