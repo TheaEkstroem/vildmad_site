@@ -1,0 +1,36 @@
+h1 {
+  margin: 20px;
+}
+a {
+  margin: 20px;
+}
+/* body {
+    background-color: #3d74de;
+  } */
+input {
+  margin: 20px;
+}
+h2 {
+  margin: 20px;
+}
+p {
+  margin: 20px;
+}
+.about {
+  display: flex;
+}
+.sidebar {
+  flex: 1;
+  background-color: aliceblue;
+  padding: 20px;
+  z-index: 1;
+}
+.mcontent {
+  flex: 3;
+  padding: 20px;
+}
+.feet {
+  /* position: fixed; */
+  margin-bottom: 0;
+  align-content: end;
+}
