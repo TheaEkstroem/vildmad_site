@@ -89,6 +89,10 @@ body {
     color: rgba(158, 158, 158, 0.882);
   }
 
+  .quiz {
+    margin: 40px;
+  }
+
   #quizForm {
     display: flex;
     flex-direction: column;
