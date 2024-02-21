@@ -2,25 +2,20 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-tap-highlight-color: transparent;
-}
-
-body {
-  padding: 0;
-  margin: calc((100vh / 25) * 1.563) calc((100vw / 25) * 1.563);
-  font-weight: 400;
-  line-height: 1.563;
 }
 
 h1,
 h2,
-h3 {
+h3, 
+p {
   margin-bottom: 1rem;
   margin-top: 1em;
   font-weight: bold;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 4rem;
 }
 
 img {
@@ -49,11 +44,15 @@ button:hover {
 
 /* Categories med GRIDS */
 
+
 .categorylist {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1em;
-  margin-bottom: 5%;
+  gap: 5em;
+  padding-bottom: 60px;
+  max-width: 75%;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .categorylist a {
@@ -63,17 +62,23 @@ button:hover {
   color: rgb(7, 0, 0);
 }
 
+@media screen and (min-width: 800px) {
+  .categorylist {
+    /* margin-left: 10em;
+    margin-right: 8em; */
+    max-width: 75%;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .categorylist {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2em;
+    max-width: 100%;
   }
 }
 
-@media screen and (min-width: 800px) {
-  main {
-    margin-left: 10em;
-    margin-right: 8em;
-  }
-}
+

@@ -1,63 +1,81 @@
-* {
-  box-sizing: border-box;
-}
-body {
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-a {
+
+footer {
+  background-color: #4d4d4d;
+  margin-top: 70px;
+}
+
+.footer_container {
+  width: 100%;
+  padding: 50px 30px 20px;
+}
+
+.socialicons {
+   display: flex;
+   justify-content: center;
+}
+
+.socialicons a{
   text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
 }
 
-a {
-  color: inherit;
+.socialicons a i{
+  font-size: 2em;
+  opacity: 0.9;
 }
-a:visited {
+
+.socialicons a:hover {
+  background-color: rgb(173, 172, 169);
+  transition: 0.5s;
+}
+
+ .footernav{
+   margin: 30px 0;
+ }
+
+ .footernav ul, .footer_logo{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+ }
+
+.footernav ul li a{
+  color: white;
+  margin: 20px;
   text-decoration: none;
-  color: #d9d9d9; /* Ændr farven til sort eller den ønskede farve */
+  font-size: 1em;
+  transition: 0.5s;
+  opacity: 0.7;
+  }
+
+.footernav ul li a:hover{
+  opacity: 1;
+
 }
 
-/* Footer Desktop */
-
-@media (min-width: 800px) {
-  .footer_grid_1_1_1_1_1_1_1 {
-    display: grid;
-    grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    /* font-family: "futura-pt"; */
-    /* margin-left: 10px; */
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    background-color: #4d4d4d;
+@media screen and (max-width: 800px) {
+  .footernav ul {
+    flex-direction: column;
   }
 
-  .logo {
-    margin-left: 2rem;
+  .footernav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
   }
 
-  #instagram {
-    aspect-ratio: 256/256;
-    width: 30%;
-    padding-bottom: 1rem;
-  }
-  #tiktok {
-    width: 30%;
-    padding-bottom: 1rem;
-  }
-
-  ul {
-    list-style: none;
-    text-decoration: none;
-    color: #d9d9d9;
-  }
-  li {
-    text-decoration: none;
-    color: #d9d9d9;
-    line-height: 2rem;
-  }
-
-  li h4 {
-    line-height: 1.5rem;
-  }
+.footer_container {
+  width: 100%;
+  padding: 50px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-/* Footer Mobil */
+}
