@@ -44,7 +44,7 @@ main {
 }
 
 .seasons {
-  color: rgb(61, 61, 61);
+  color: #74614d;
 }
 
 .info {
@@ -74,7 +74,6 @@ main {
   h1 {
     padding: 0.5em;
   }
-  
 }
 
 /* desktop */
@@ -86,5 +85,9 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
+  }
+
+  #brod {
+    margin-left: 4%;
   }
 }
