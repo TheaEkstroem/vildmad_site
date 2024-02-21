@@ -1,4 +1,4 @@
-.about{
+.about {
   margin-left: 2em;
 }
 
@@ -18,33 +18,37 @@ input {
   color: rgba(158, 158, 158, 0.882);
 }
 
-label{ 
+label {
   margin: 1em;
 }
 
 input[type="text"],
-  select {
-    width: 50%;
-    padding: 0.5em;
-    margin-bottom: 5px;
-    margin-left: 20px;
-    background-color: white;
-    border: none;
-    color: rgba(158, 158, 158, 0.882);
-  }
-
+select {
+  width: 50%;
+  padding: 0.5em;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  background-color: white;
+  border: none;
+  color: rgba(158, 158, 158, 0.882);
+}
 
 p {
   margin: 20px;
   max-width: 800px;
 }
 
-.mcontaint a{
+.mcontaint a {
   margin-left: 2rem;
   margin-bottom: 1em;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin: 20px;
   margin-top: 1em;
+}
+
+.link {
+  color: #4d4d4d;
 }
