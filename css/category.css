@@ -78,6 +78,14 @@ p {
     margin-left: 2em auto;
     margin-top: 3em;
   }
+
+  h1{
+    margin:0.5em;
+  }
+
+  p{
+    margin: 1em;
+  }
 }
 
 /* desktop */
