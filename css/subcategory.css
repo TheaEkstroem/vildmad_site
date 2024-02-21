@@ -74,6 +74,11 @@ main {
 
 /* Mobil */
 @media screen and (max-width: 800px) {
+  .subcategory {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .logo {
     z-index: 1;
   }
@@ -82,9 +87,5 @@ main {
 @media screen and (min-width: 800px) {
   h1 {
     padding: 1.5em;
-  }
-  .subcategory {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
   }
 }
