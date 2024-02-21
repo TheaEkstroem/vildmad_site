@@ -36,12 +36,11 @@ p {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   transform: scale(1.1);
 }
 
-.container_btn
-{
+.container_btn {
   margin-top: 1em;
 }
 
