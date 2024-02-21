@@ -85,9 +85,19 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
+    margin-top: -12em;
+    padding-bottom: 5em;
   }
 
   #brod {
     margin-left: 4%;
+    margin-top: -4%;
   }
+
+  .img{
+    max-width: 70%;
+margin: 5em auto;
+
+  }
+
 }
