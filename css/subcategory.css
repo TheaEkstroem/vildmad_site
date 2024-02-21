@@ -5,7 +5,10 @@
   text-rendering: optimizeLegibility;
 }
 
-
+main,
+.titel_text {
+  background-color: #b9d4bc;
+}
 
 #brod {
   width: 350px;
