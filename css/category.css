@@ -19,7 +19,7 @@ p {
 }
 
 .category_img {
-  margin-bottom: 1%;
+  margin-bottom: 2em;
 }
 
 .btn {
@@ -38,6 +38,11 @@ p {
 
 button:hover {
   transform: scale(1.1);
+}
+
+.container_btn
+{
+  margin-top: 1em;
 }
 
 /* Categories med GRIDS */
