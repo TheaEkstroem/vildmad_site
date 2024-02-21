@@ -66,12 +66,12 @@ p {
 
 /* mobil */
 @media screen and (max-width: 800px) {
-  /* .categorylist {
+  .categorylist {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2em;
     max-width: 100%;
-  } */
+  }
   .category_img {
     margin-bottom: 3em;
     max-width: 100%;
@@ -79,11 +79,11 @@ p {
     margin-top: 3em;
   }
 
-  h1{
-    margin:0.5em;
+  h1 {
+    margin: 0.5em;
   }
 
-  p{
+  p {
     margin: 1em;
   }
 }
@@ -107,4 +107,3 @@ p {
     margin-bottom: 5%;
   }
 }
-
