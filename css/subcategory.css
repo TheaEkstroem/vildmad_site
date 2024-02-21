@@ -30,12 +30,6 @@ main {
   color: #61503d;
 }
 
-.subcategory .productList {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
-}
-
 .categoryProduct {
   margin: 10%;
 }
@@ -74,18 +68,23 @@ main {
 
 /* Mobil */
 @media screen and (max-width: 800px) {
-  .subcategory {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-
   .logo {
     z-index: 1;
   }
+  h1 {
+    padding: 0.5em;
+  }
+  
 }
 
+/* desktop */
 @media screen and (min-width: 800px) {
   h1 {
     padding: 1.5em;
+  }
+  .subcategory .productList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
   }
 }

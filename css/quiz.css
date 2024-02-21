@@ -9,10 +9,11 @@ body {
   main {
     background-color: #b9d4bc;
     margin-top: -0em;
+    padding: 1em;
   }
 
   h1 {
-    padding: 2em;
+    padding: 0.5em;
   }
   h2 {
     padding-top: 0.5em;
