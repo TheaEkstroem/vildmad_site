@@ -9,21 +9,34 @@ a {
   } */
 input {
   margin: 20px;
+  padding: 10px;
 }
 h2 {
   margin: 20px;
 }
 p {
   margin: 20px;
+  max-width: 800px;
 }
 .about {
   display: flex;
 }
+
+.link {
+  text-decoration: underline;
+}
+
+main {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
 .sidebar {
   flex: 1;
-  background-color: aliceblue;
+  background-color: #b9d4bc;
   padding: 20px;
   z-index: 1;
+  margin-top: 2%;
 }
 .mcontent {
   flex: 3;
@@ -33,4 +46,9 @@ p {
   /* position: fixed; */
   margin-bottom: 0;
   align-content: end;
+}
+
+fieldset {
+  margin-left: 1.5%;
+  max-width: 750px;
 }
